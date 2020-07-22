@@ -14,16 +14,677 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
     <style>
-        document {
-            background-color: ##005a73
+        body {
+            background-color: #005a73;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 30.4px;
+            letter-spacing: 3px;
+            text-align: center;
         }
         
-        ;
+        h1,
+        h2,
+        h3,
+        p {
+            color: rgb(161, 214, 213);
+            font-size: 16px;
+        }
+        
+        h1 {
+            align-content: normal;
+            align-items: normal;
+            align-self: auto;
+            alignment-baseline: auto;
+            all: ;
+            animation-delay: 0s;
+            animation-direction: normal;
+            animation-duration: 0s;
+            animation-fill-mode: none;
+            animation-iteration-count: 1;
+            animation-name: none;
+            animation-play-state: running;
+            animation-timing-function: ease;
+            appearance: none;
+            backdrop-filter: none;
+            backface-visibility: visible;
+            background-attachment: scroll;
+            background-blend-mode: normal;
+            background-clip: border-box;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: none;
+            background-origin: padding-box;
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-repeat-x: ;
+            background-repeat-y: ;
+            background-size: auto;
+            baseline-shift: 0px;
+            block-size: 45.6px;
+            border-block-end-color: rgb(161, 214, 213);
+            border-block-end-style: none;
+            border-block-end-width: 0px;
+            border-block-start-color: rgb(161, 214, 213);
+            border-block-start-style: none;
+            border-block-start-width: 0px;
+            border-bottom-color: rgb(161, 214, 213);
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-bottom-style: none;
+            border-bottom-width: 0px;
+            border-collapse: separate;
+            border-image-outset: 0;
+            border-image-repeat: stretch;
+            border-image-slice: 100%;
+            border-image-source: none;
+            border-image-width: 1;
+            border-inline-end-color: rgb(161, 214, 213);
+            border-inline-end-style: none;
+            border-inline-end-width: 0px;
+            border-inline-start-color: rgb(161, 214, 213);
+            border-inline-start-style: none;
+            border-inline-start-width: 0px;
+            border-left-color: rgb(161, 214, 213);
+            border-left-style: none;
+            border-left-width: 0px;
+            border-right-color: rgb(161, 214, 213);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(161, 214, 213);
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-top-style: none;
+            border-top-width: 0px;
+            bottom: auto;
+            box-shadow: none;
+            box-sizing: border-box;
+            break-after: auto;
+            break-before: auto;
+            break-inside: auto;
+            buffered-rendering: auto;
+            caption-side: top;
+            caret-color: rgb(161, 214, 213);
+            clear: none;
+            clip: auto;
+            clip-path: none;
+            clip-rule: nonzero;
+            color-interpolation: srgb;
+            color-interpolation-filters: linearrgb;
+            color-rendering: auto;
+            color-scheme: normal;
+            column-count: auto;
+            column-fill: balance;
+            column-gap: normal;
+            column-rule-color: rgb(161, 214, 213);
+            column-rule-style: none;
+            column-rule-width: 0px;
+            column-span: none;
+            column-width: auto;
+            contain: none;
+            contain-intrinsic-size: auto;
+            content: normal;
+            counter-increment: none;
+            counter-reset: none;
+            cursor: auto;
+            cx: 0px;
+            cy: 0px;
+            d: none;
+            direction: ltr;
+            display: block;
+            dominant-baseline: auto;
+            empty-cells: show;
+            fill: rgb(0, 0, 0);
+            fill-opacity: 1;
+            fill-rule: nonzero;
+            filter: none;
+            flex-basis: auto;
+            flex-direction: row;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-wrap: nowrap;
+            float: none;
+            flood-color: rgb(0, 0, 0);
+            flood-opacity: 1;
+            font-family: "Open Sans", sans-serif;
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-optical-sizing: auto;
+            font-size: 38px;
+            font-stretch: 100%;
+            font-style: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variation-settings: normal;
+            font-weight: 400;
+            grid-auto-columns: auto;
+            grid-auto-flow: row;
+            grid-auto-rows: auto;
+            grid-column-end: auto;
+            grid-column-start: auto;
+            grid-row-end: auto;
+            grid-row-start: auto;
+            grid-template-areas: none;
+            grid-template-columns: none;
+            grid-template-rows: none;
+            height: 45.6px;
+            hyphens: manual;
+            image-orientation: from-image;
+            image-rendering: auto;
+            inline-size: 664.4px;
+            isolation: auto;
+            justify-content: normal;
+            justify-items: normal;
+            justify-self: auto;
+            left: auto;
+            letter-spacing: 3px;
+            lighting-color: rgb(255, 255, 255);
+            line-break: auto;
+            line-height: 45.6px;
+            list-style-image: none;
+            list-style-position: outside;
+            list-style-type: disc;
+            margin-block-end: 20px;
+            margin-block-start: 0px;
+            margin-bottom: 20px;
+            margin-inline-end: 0px;
+            margin-inline-start: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            marker-end: none;
+            marker-mid: none;
+            marker-start: none;
+            mask: none;
+            mask-type: luminance;
+            max-block-size: none;
+            max-height: none;
+            max-inline-size: none;
+            max-width: none;
+            min-block-size: 0px;
+            min-height: 0px;
+            min-inline-size: 0px;
+            min-width: 0px;
+            mix-blend-mode: normal;
+            object-fit: fill;
+            object-position: 50% 50%;
+            offset-distance: 0px;
+            offset-path: none;
+            offset-rotate: auto 0deg;
+            opacity: 1;
+            order: 0;
+            orphans: 2;
+            outline-color: rgb(161, 214, 213);
+            outline-offset: 0px;
+            outline-style: none;
+            outline-width: 0px;
+            overflow-anchor: auto;
+            overflow-wrap: break-word;
+            overflow-x: visible;
+            overflow-y: visible;
+            overscroll-behavior-block: auto;
+            overscroll-behavior-inline: auto;
+            overscroll-behavior-x: auto;
+            overscroll-behavior-y: auto;
+            padding-block-end: 0px;
+            padding-block-start: 0px;
+            padding-bottom: 0px;
+            padding-inline-end: 0px;
+            padding-inline-start: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            paint-order: normal;
+            perspective: none;
+            perspective-origin: 332.2px 22.8px;
+            pointer-events: auto;
+            position: static;
+            quotes: ;
+            r: 0px;
+            resize: none;
+            right: auto;
+            row-gap: normal;
+            ruby-position: over;
+            rx: auto;
+            ry: auto;
+            scroll-behavior: auto;
+            scroll-margin-block-end: 0px;
+            scroll-margin-block-start: 0px;
+            scroll-margin-bottom: 0px;
+            scroll-margin-inline-end: 0px;
+            scroll-margin-inline-start: 0px;
+            scroll-margin-left: 0px;
+            scroll-margin-right: 0px;
+            scroll-margin-top: 0px;
+            scroll-padding-block-end: auto;
+            scroll-padding-block-start: auto;
+            scroll-padding-bottom: auto;
+            scroll-padding-inline-end: auto;
+            scroll-padding-inline-start: auto;
+            scroll-padding-left: auto;
+            scroll-padding-right: auto;
+            scroll-padding-top: auto;
+            scroll-snap-align: none;
+            scroll-snap-stop: normal;
+            scroll-snap-type: none;
+            shape-image-threshold: 0;
+            shape-margin: 0px;
+            shape-outside: none;
+            shape-rendering: auto;
+            size: ;
+            speak: normal;
+            stop-color: rgb(0, 0, 0);
+            stop-opacity: 1;
+            stroke: none;
+            stroke-dasharray: none;
+            stroke-dashoffset: 0px;
+            stroke-linecap: butt;
+            stroke-linejoin: miter;
+            stroke-miterlimit: 4;
+            stroke-opacity: 1;
+            stroke-width: 1px;
+            tab-size: 8;
+            table-layout: auto;
+            text-align: center;
+            text-align-last: auto;
+            text-anchor: start;
+            text-combine-upright: none;
+            text-decoration-color: rgb(161, 214, 213);
+            text-decoration-line: none;
+            text-decoration-skip-ink: auto;
+            text-decoration-style: solid;
+            text-indent: 0px;
+            text-orientation: mixed;
+            text-overflow: clip;
+            text-rendering: optimizelegibility;
+            text-shadow: none;
+            text-size-adjust: 100%;
+            text-transform: uppercase;
+            text-underline-position: auto;
+            top: auto;
+            touch-action: auto;
+            transform: none;
+            transform-box: view-box;
+            transform-origin: 332.2px 22.8px;
+            transform-style: flat;
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease;
+            unicode-bidi: normal;
+            user-select: auto;
+            vector-effect: none;
+            vertical-align: baseline;
+            visibility: visible;
+            white-space: normal;
+            widows: 2;
+            width: 100%;
+            will-change: auto;
+            word-break: break-word;
+            word-spacing: 0px;
+            writing-mode: horizontal-tb;
+            x: 0px;
+            y: 0px;
+            z-index: auto;
+            zoom: 1;
+            -webkit-app-region: none;
+            -webkit-border-horizontal-spacing: 0px;
+            -webkit-border-vertical-spacing: 0px;
+            -webkit-box-align: stretch;
+            -webkit-box-decoration-break: slice;
+            -webkit-box-direction: normal;
+            -webkit-box-flex: 0;
+            -webkit-box-ordinal-group: 1;
+            -webkit-box-orient: horizontal;
+            -webkit-box-pack: start;
+            -webkit-box-reflect: none;
+            -webkit-font-size-delta: ;
+            -webkit-font-smoothing: antialiased;
+            -webkit-highlight: none;
+            -webkit-hyphenate-character: auto;
+            -webkit-line-clamp: none;
+            -webkit-locale: "en";
+            -webkit-mask-box-image-outset: 0;
+            -webkit-mask-box-image-repeat: stretch;
+            -webkit-mask-box-image-slice: 0 fill;
+            -webkit-mask-box-image-source: none;
+            -webkit-mask-box-image-width: auto;
+            -webkit-mask-clip: border-box;
+            -webkit-mask-composite: source-over;
+            -webkit-mask-image: none;
+            -webkit-mask-origin: border-box;
+            -webkit-mask-position-x: 0%;
+            -webkit-mask-position-y: 0%;
+            -webkit-mask-repeat-x: ;
+            -webkit-mask-repeat-y: ;
+            -webkit-mask-size: auto;
+            -webkit-perspective-origin-x: ;
+            -webkit-perspective-origin-y: ;
+            -webkit-print-color-adjust: economy;
+            -webkit-rtl-ordering: logical;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-text-combine: none;
+            -webkit-text-decorations-in-effect: none;
+            -webkit-text-emphasis-color: rgb(161, 214, 213);
+            -webkit-text-emphasis-position: over right;
+            -webkit-text-emphasis-style: none;
+            -webkit-text-fill-color: rgb(161, 214, 213);
+            -webkit-text-security: none;
+            -webkit-text-stroke-color: rgb(161, 214, 213);
+            -webkit-text-stroke-width: 0px;
+            -webkit-transform-origin-x: ;
+            -webkit-transform-origin-y: ;
+            -webkit-transform-origin-z: ;
+            -webkit-user-drag: auto;
+            -webkit-user-modify: read-only;
+            -webkit-border-image: none;
+            -webkit-ruby-position: before;
+            -webkit-text-orientation: vertical-right;
+        }
+        
+        p {
+            /*! CSS Used from: https://d1tntvpcrzvon2.cloudfront.net/vwassets/new/main.b702ec5a.css */
+            #public-wrapper p {
+                white-space: pre-wrap;
+            }
+            @media print {
+                *,
+                *:before,
+                *:after {
+                    color: #000!important;
+                    text-shadow: none!important;
+                    background: transparent!important;
+                    box-shadow: none!important;
+                }
+                p {
+                    orphans: 3;
+                    widows: 3;
+                }
+            }
+            * {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            *:before,
+            *:after {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            p {
+                margin: 0 0 10px;
+            }
+            p {
+                color: #7F7F7F;
+            }
+            @media (min-width: 1200px) {
+                p {
+                    font-size: 16px;
+                }
+            }
+            @media print {
+                *,
+                *:before,
+                *:after {
+                    color: #000!important;
+                    text-shadow: none!important;
+                    background: transparent!important;
+                    box-shadow: none!important;
+                }
+                p {
+                    orphans: 3;
+                    widows: 3;
+                }
+            }
+            * {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            *:before,
+            *:after {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            p {
+                margin: 0 0 10px;
+            }
+            p {
+                color: #7F7F7F;
+            }
+            @media (min-width: 1200px) {
+                p {
+                    font-size: 16px;
+                }
+            }
+            /*! CSS Used from: Embedded */
+            p {
+                margin: 0 0 11px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #505050;
+            }
+            /*! CSS Used from: Embedded */
+            @media print {
+                *,
+                *:before,
+                *:after {
+                    color: #000!important;
+                    text-shadow: none!important;
+                    background: transparent!important;
+                    box-shadow: none!important;
+                }
+                p {
+                    orphans: 3;
+                    widows: 3;
+                }
+            }
+            * {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            *:before,
+            *:after {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            p {
+                margin: 0 0 10px;
+            }
+            p {
+                color: #7F7F7F;
+            }
+            @media (min-width: 1200px) {
+                p {
+                    font-size: 16px;
+                }
+            }
+            #public-wrapper p {
+                white-space: pre-wrap;
+            }
+            /*! CSS Used from: https://d2gt2lt628wbyx.cloudfront.net/sona-blue.css */
+            #public-wrapper p {
+                color: #a1d6d5;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                word-break: break-word;
+            }
+            #public-wrapper p {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: 19px;
+                letter-spacing: 1px;
+            }
+            #public-wrapper p {
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: normal;
+            }
+            /*! CSS Used fontfaces */
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+                unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+                unicode-range: U+0370-03FF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format('woff2');
+                unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format('woff2');
+                unicode-range: U+0370-03FF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format('woff2');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format('woff2');
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format('woff2');
+                unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format('woff2');
+                unicode-range: U+0370-03FF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format('woff2');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+        }
     </style>
     <link rel="shortcut icon" href="">
 </head>
 
 <body>
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/438712446" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div </body>
+    <div style="position: relative; margin: 0 auto;">
+        <h1>Kim Ash & Michael Martinez-Campos</h1>
+        <iframe src="https://player.vimeo.com/video/438712446" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="top:0;left:0;width: 940px; height:550px;"></iframe>
+
+        <!-- <p>Click on icon above to watch video in full screen</p> -->
+        <p> After the ceremony, visit us via video livestream chat here</p>
+</body>
 
 </html>
